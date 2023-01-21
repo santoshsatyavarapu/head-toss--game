@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.coin-image {
+  width: 150px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #a35200;
+}
+
+button {
+  background-color: #f9d423;
+  border-width: 0px;
+  color: #a35200;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 80px;
+  margin-top: 30px;
+}
+
+li {
+  margin: 10px;
+}
